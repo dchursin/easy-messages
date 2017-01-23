@@ -1,0 +1,25 @@
+@charset "UTF-8";
+html {
+	overflow: scroll;
+	background: #ffffff;
+	font-family: "Oswald", sans-serif;
+	color: white;
+}
+.container {
+	width: 50%;
+	position: relative;
+	margin: 0 auto;
+	margin-bottom: 60px;
+}
+h1 {
+	color: #cccccc;
+	font-size: 50px;
+	text-align: center;
+	padding-top: 30px;
+	margin-bottom: 20px;
+}
+h1 span {
+	font-weight: bold;
+	color: #cccccc;
+	opacity: .3;
+}

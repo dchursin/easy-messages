@@ -1,0 +1,41 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+      <title>Description plugin page</title>
+      <link href="http://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet" type="text/css">
+      <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+      <link href="css/reset.css" rel="stylesheet" type="text/css">
+      <link href="css/style.css" rel="stylesheet" type="text/css">
+      <link href="css/easy-messages.css" rel="stylesheet" type="text/css">
+      <script src="js/jquery.easy-messages.js" type="text/javascript"></script>
+      <script type="text/javascript">
+         $(function() {
+            $('.popup-message').easymessages();
+            $('.static-message').easymessages({ messageClose: false });
+         });
+      </script>
+   </head>
+   <body>
+      <div class="container">
+         <h1><span>easy-messages</span>.js</h1>
+         <div class="popup-message">
+            <div class="error-msg"><span>Error</span></div>
+         </div>
+         <div class="popup-message">
+            <div class="success-msg"><span>Success</span></div>
+         </div>
+         <div class="popup-message">
+            <div class="notice-msg"><span>Notice</span></div>
+         </div>
+         <div class="static-message">
+            <div class="error-msg"><span>Error</span></div>
+         </div>
+         <div class="static-message">
+            <div class="success-msg"><span>Success</span></div>
+         </div>
+         <div class="static-message">
+            <div class="notice-msg"><span>Notice</span></div>
+         </div>
+      </div>
+   </body>
+</html>
